@@ -1,0 +1,40 @@
+# list dbs
+\l
+
+# create a database
+CREATE DATABASE second_database;
+
+# connect to a database 
+\c database_name;
+
+# show all tables
+\d
+
+# info on one table 
+
+\d tablename
+
+# create table 
+CREATE TABLE first_table();
+
+# add columns
+ALTER TABLE second_table ADD COLUMN age INT;
+
+
+# drop columns
+ALTER TABLE second_table DROP COLUMN age
+
+# rename columns
+ALTER TABLE second_table RENAME COLUMN name TO username;
+
+# add data - member all quotes should be singles!
+INSERT INTO second_table(id,username) VALUES(1,'Samus');
+
+# delete rows
+DELETE FROM second_table WHERE username ='Luigi';
+
+
+# rename a database
+ALTER DATABASE first_database RENAME TO mario_database;
+
+# 

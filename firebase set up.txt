@@ -1,0 +1,26 @@
+# login to firebase
+
+firebase login
+
+#initialise firebase
+
+firebase init functions
+
+
+# go through wizard, but skip install dependencies
+# make sure to select python 
+
+
+
+##################################
+Installing dependencies
+##################################
+
+# Before installing
+# allows scripts to run from powershell
+
+Set-ExecutionPolicy Unrestricted -Scope Process 
+
+#reset permissions at the end of the process by using 
+
+Set-ExecutionPolicy Default -Scope Process

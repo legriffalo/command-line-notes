@@ -1,0 +1,16 @@
+#### start vite ####
+
+npm create vite@latest *name*
+
+#### cd to project and install dependencies ####
+
+cd *name*
+npm install
+
+#### preview standard vite ####
+
+npm run dev
+
+# to create project 
+
+npm run build

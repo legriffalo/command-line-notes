@@ -1,0 +1,38 @@
+######################################
+Set up venv pshell
+######################################
+
+py pip install venv
+
+py -m venv *name for venv*
+
+### to run it ### 
+
+ .\*name*\Scripts\Activate
+
+
+### leave it/deactivate  ###
+
+deactivate 
+
+
+##### interrupt python scripts that don't self terminate ########
+ctrl + c
+
+
+######################################
+pip    
+######################################
+
+ py -m pip install keyboard
+
+######################################
+Commands to set up flask server
+######################################
+
+
+################################
+using firebase to set up 
+################################
+
+

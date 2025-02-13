@@ -1,0 +1,35 @@
+ ## add to project using npm 
+npm install typescript --save-dev
+
+
+## check version 
+npx tsc -v
+
+# add types for use with packages
+npm install --save @types*name*
+
+
+# typical ts config file
+
+{
+    "include":["src/**/*"],
+    "compilerOptions":{
+        "target":"es2020",
+        "module":"commonjs",
+        "lib":["es2020","DOM"],
+        "outDir":"build",
+        "strict":true,
+        "esModuleInterop":true,
+        "skipLibCheck":true,
+        "forceConsistentCasingInFileNames":true,
+        "allowJs":true,
+        "checkJs":true
+    }
+}
+
+
+
+
+For TS with React use vite to settup remember to preview must use nom run dev from in side prject folder
+
+cd *project name*

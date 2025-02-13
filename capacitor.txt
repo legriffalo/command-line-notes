@@ -1,0 +1,44 @@
+#### start vite ####
+
+npm create vite@latest *name*
+
+#### cd to project and install dependencies ####
+
+cd *name*
+npm install
+
+#### preview standard vite ####
+
+npm run dev
+
+
+## to be ready for android tests must run nom run build ## 
+
+
+
+#### capacitor install ####
+
+npm i @capacitor/core
+npm i -D @capacitor/cli
+
+
+## initialise and set up ##
+
+npx cap init
+
+
+## set up for android and/or ios ##
+
+npm i @capacitor/android @capacitor/ios
+
+
+## add android and ios folders ##
+
+npx cap add android
+npx cap add ios
+
+## sync app to location specified in capacitor config ##
+npx cap sync
+
+
+
