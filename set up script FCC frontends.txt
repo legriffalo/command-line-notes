@@ -1,0 +1,44 @@
+set up script FCC frontends
+
+
+#### start vite ####
+
+npm create vite@latest *name*
+
+#### cd to project and install dependencies ####
+
+cd *name*
+npm install
+
+#### preview standard vite ####
+
+npm run dev
+
+
+
+# add tailwind and daisyui
+npm install tailwindcss@latest @tailwindcss/vite@latest daisyui@latest
+
+#install gh-pages deployment
+npm install --save gh-pages
+
+
+#add to app.css
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+# edit the vite comfig add import for tailwind 
+import tailwindcss from '@tailwindcss/vite';
+
+# add base (for deployment) to definConfig
+base: '/FCC-drum-machine'
+
+# add scripts to scripts in package.json
+
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
+# add homepage to package.json
+"homepage": "http://legriffalo.github.io/FCC-drum-machine/",

@@ -1,0 +1,21 @@
+Docker
+
+
+Use the project 
+
+- fire up Docker desktop 
+- select image 
+- start image
+- run psql in the image
+- run front end to connect
+
+
+
+First time installs
+
+//open project docker image postgres
+
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_DB=some_database -p 5432:5432 -d postgres
+
+
+// close/shutdown a docker container
