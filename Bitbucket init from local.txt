@@ -1,0 +1,19 @@
+Bitbucket init from local
+
+
+1. "git init" in local folder
+
+2. Add Files and Directories to the Repository: 
+Use the command "git add ." to stage all
+
+3. Create an Initial Commit: 'git commit -m "initial commit"' 
+
+4. Connect to a Bitbucket Repository (Remote): 
+Create a Bitbucket Repository:
+
+5. Get the Repository URL:
+Copy the URL of the Bitbucket repository, which will be in the format of https://bitbucket.org/<username>/<repository_name>.git or git@bitbucket.org:<username>/<repository_name>.git.
+
+
+6. Add the Remote:
+In your terminal, run the command "git remote add origin <repository_url>" (replace <repository_url> with the URL you copied). This links your local repository to the Bitbucket repository, giving it the alias "origin".
